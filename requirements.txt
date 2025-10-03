@@ -1,0 +1,15 @@
+# requirements.txt
+# Core dependencies for YOLOv8 and Python scripts
+
+# Ultralytics for the YOLO model
+ultralytics
+
+# OpenCV for image loading/saving in inference.py
+opencv-python
+
+# pillow is often needed for image handling
+Pillow
+
+# The underlying PyTorch framework
+torch
+torchvision

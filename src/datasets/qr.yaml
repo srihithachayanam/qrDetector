@@ -1,0 +1,15 @@
+# src/datasets/qr.yaml
+# Data root relative to the PROJECT ROOT (multiqr-hackathon/)
+# Since your training command is run from the project root, this path 
+# now points to the correct location of the data folders.
+path: src/datasets/qr_data/ # <--- Use the path where you put your 'images' and 'labels' folders
+
+# Image paths (relative to the 'path' above)
+train: images/train
+val: images/val
+
+# Number of classes
+nc: 1
+
+# Class names
+names: ['qr_code']

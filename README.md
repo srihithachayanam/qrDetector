@@ -34,7 +34,7 @@ Our solution relies on **Git LFS** (Large File Storage) for handling the final m
 
 ---
 
-### 2. Execution for Mandatory Detection
+### 2. Execution for Detection
 
 This section details the single command needed to reproduce the output for the **Detection Task** on the hidden test images.
 
@@ -51,5 +51,6 @@ python infer.py \
     --source ./test_images/ \
     --output_path ./submission_hidden.json
 ```
+
 **link for drive (includes results images along with confusion matrix)
 https://drive.google.com/drive/folders/1PV1v6fL_shMvw8CRNmJjq8NE7RCxFazg?usp=drive_link

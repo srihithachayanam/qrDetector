@@ -1,10 +1,13 @@
 # multiqr-hackathon: Multi-QR Code Detection Solution
 
-## Mandatory Submission: Object Detection Only (YOLOv8)
+## Mandatory Submission: Object Detection 
 
 This repository contains the complete source code and necessary models for our QR code detection hackathon submission. The code is complete, runnable, and reproducible, focusing on the mandatory detection task.
 
-### 1. Environment Setup (CRITICAL)
+The given dataset does not contain labels, therefore the annotations were done manually using 'make sense' for the split data consisting of 160 train images and 40 validation images (out of 200).
+
+
+### 1. Environment Setup
 
 Our solution relies on **Git LFS** (Large File Storage) for handling the final model file(s) and requires **Python 3.10**.
 
@@ -33,13 +36,13 @@ Our solution relies on **Git LFS** (Large File Storage) for handling the final m
 
 ### 2. Execution for Mandatory Detection
 
-This section details the single command needed to reproduce the output for the **Mandatory Detection Task** on the hidden test images.
+This section details the single command needed to reproduce the output for the **Detection Task** on the hidden test images.
 
 #### 2.1 The Single Execution Command
 
 The script `infer.py` (or `evaluate.py`, whichever generates the JSON) should be modified/used to output only the required detection bounding boxes.
 
-**Instructions:** Place the 50 hidden test images into a folder named `test_images/` in the root of the repository.
+**Instructions:** Place the hidden test images into a folder named `test_images/` in the root of the repository.
 
 ```bash
 # RUN THIS COMMAND (Adjust script/arguments if necessary to output JSON):
